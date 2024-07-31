@@ -1,0 +1,135 @@
+body{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+
+}
+
+.navigation-item{
+  font-size: 25px;
+  font-family: Oswald;
+  list-style: none;
+  text-decoration: none;
+  color: rgb(44, 245, 41);
+  background: none;
+  transition: background-color 0.3s ease;
+  border-radius: 3px;
+  padding: 10px;
+  position: fixed;
+  font-weight:bold;
+}
+
+
+.navigation-item:hover{
+  color:black;
+  background-color: rgb(44, 245, 41);
+
+}
+
+.navigation{
+  width: 96%;
+  height:60px;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  transition: background-color 0.3s ease;
+  position: fixed;
+  background-image: linear-gradient(rgb(28, 28, 28), rgba(255, 255, 255, 0));
+}
+
+
+
+.navigation-logo{
+  height:80px;
+  width:auto;
+  /*transition: transform 500ms ease-in-out;*/
+  position: fixed;
+  transition: transform 1400ms ease-in-out;
+  transform:rotate(0deg)
+}
+
+.navigation-logo:hover{
+  transform:rotate(540deg)
+
+}
+
+/*.navigation-logo:hover{
+  transform: translate(0px, -20px);
+}*/
+
+.main-img{
+  height:auto;
+  width:100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 70px;
+}
+
+.left {
+  flex: 1;
+}
+
+.right {
+  flex: 1;
+}
+
+.about-head {
+  font-size: 70px;
+  font-family: Oswald;
+  font-weight: bold;
+  color: rgb(44, 245, 41);
+  margin: 0;
+  padding: 0;
+}
+
+.about-text {
+  color: white;
+  font-family: Oswald;
+  font-size: 25px;
+}
+
+.about-img {
+  height: 600px;
+  width: auto;
+  padding-top:100px;
+
+}
+
+.social{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0; 
+  left: 0; 
+  margin: 10px;
+
+}
+
+.social-img{
+  height:50px;
+  width:auto;
+  margin-left: 10px;
+}
+
+.Spotify-releases{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: cent;
+}
+
+.Spotify-songs{
+  margin-top:130px;
+  width:300px;
+  height:165px;
+}
